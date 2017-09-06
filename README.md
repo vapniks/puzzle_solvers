@@ -10,5 +10,9 @@ For the puzzles in this repo the [gecode](http://www.gecode.org/) solver was use
 The model files (.mod) contain fixed data which can be altered to fit the particular puzzle instance you are trying to solve.
 
 Assuming you have installed a copy of ampl and gecode you can solve files from the linux command line like so:  
-> ampl <PATH_TO_FILE>  
+
+``` shell
+ampl <PATH_TO_FILE>
+```
+
 or just make the files executable and they should just run by themselves via the hashbang.
