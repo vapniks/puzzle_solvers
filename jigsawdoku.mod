@@ -3,6 +3,8 @@
 # AMPL MODEL TO SOLVE JIGSAWDOKO
 # ----------------------------------------
 
+# Written by Joe Bloggs [2017-09-06 Wed], vapniks@yahoo.com
+
 ## BASIC CONSTRAINTS
 option solver gecode;
 

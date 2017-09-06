@@ -3,6 +3,8 @@
 # AMPL MODEL TO SOLVE IDOKO
 # ----------------------------------------
 
+# Written by Joe Bloggs [2017-09-06 Wed], vapniks@yahoo.com
+
 option solver gecode;
 
 # total number of different digits

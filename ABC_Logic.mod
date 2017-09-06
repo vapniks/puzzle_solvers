@@ -1,7 +1,9 @@
 #!/usr/bin/env ampl
-# -----------------------------------------------------
-# AMPL MODEL TO SOLVE "ABC LOGIC" PUZZLE IN INDEPENDENT
-# -----------------------------------------------------
+# ---------------------------------------------------------------
+# AMPL MODEL TO SOLVE "ABC LOGIC" PUZZLE IN INDEPENDENT NEWSPAPER
+# ---------------------------------------------------------------
+
+# Written by Joe Bloggs [2017-09-06 Wed], vapniks@yahoo.com
 
 option solver gecode;
 
