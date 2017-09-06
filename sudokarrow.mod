@@ -3,7 +3,7 @@
 # AMPL MODEL TO SOLVE SUDOKARROW
 # ----------------------------------------
 
-# Written by Joe Bloggs [2017-09-06 Wed], vapniks@yahoo.com
+# Written by Joe Bloggs [2017-09-06 Wed]
 
 # Use gecode solver so we can use constraint programming extensions (alldiff)
 option solver gecode;

@@ -3,7 +3,7 @@
 # AMPL MODEL TO SOLVE IDOKO
 # ----------------------------------------
 
-# Written by Joe Bloggs [2017-09-06 Wed], vapniks@yahoo.com
+# Written by Joe Bloggs [2017-09-06 Wed]
 
 option solver gecode;
 
