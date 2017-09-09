@@ -3,6 +3,10 @@
 # AMPL MODEL TO SOLVE SUJIKO
 # ----------------------------------------
 
+# The aim of Sujiko is to fill the 3x3 grid with the numbers 1-9 so that the given circled numbers
+# (located at points where the cells meet) are equal to the sums of the numbers in surrounding cells.
+# This puzzle appears in the Daily Telegraph newspaper.
+
 # Written by Joe Bloggs [2017-09-06 Wed]
 
 option solver gecode;

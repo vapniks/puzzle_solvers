@@ -3,6 +3,11 @@
 # AMPL MODEL TO SOLVE IDOKO
 # ----------------------------------------
 
+# This puzzle is a variant of sudoku where in addition to the normal rules of sudoku you
+# must also ensure that the 9 grey cells in the middle (in the shape of an 'I') also contain
+# all the digits 1 to 9.
+# This puzzle appears in the Independent newspaper.
+
 # Written by Joe Bloggs [2017-09-06 Wed]
 
 option solver gecode;

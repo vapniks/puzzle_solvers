@@ -3,6 +3,10 @@
 # AMPL MODEL TO SOLVE SUKO
 # ----------------------------------------
 
+# This puzzle is a variant of sujiko where in addition to the usual rules you are also given extra
+# clues which tell you the sums of the digits in certain coloured regions.
+# This puzzle appears in the Independent newspaper.
+
 # Written by Joe Bloggs [2017-09-06 Wed]
 
 # Use gecode solver so we can use constraint programming extensions (alldiff)

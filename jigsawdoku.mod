@@ -3,6 +3,11 @@
 # AMPL MODEL TO SOLVE JIGSAWDOKO
 # ----------------------------------------
 
+# This puzzle is a variant of sudoku where instead of 3x3 squares that need to be filled with digits 1 to 9,
+# we have irregularly shaped regions which need to be filled with digits 1 to 9.
+# As with sudoku we still need each row and column to contain all digits 1 to 9.
+# This puzzle appears in the Independent newspaper.
+
 # Written by Joe Bloggs [2017-09-06 Wed]
 
 ## BASIC CONSTRAINTS

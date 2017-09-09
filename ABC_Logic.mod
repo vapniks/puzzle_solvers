@@ -3,6 +3,12 @@
 # AMPL MODEL TO SOLVE "ABC LOGIC" PUZZLE IN INDEPENDENT NEWSPAPER
 # ---------------------------------------------------------------
 
+# The aim of this puzzle is to fill each row and column of a 5x5 grid with the letters A, B & C and two X's
+# Some letters (excluding X) are written around the outside of the grid at the starts and ends of some rows and columns.
+# These letters around the outside indicate the first or last letter which should appear within the corresponding row or column
+# that the outer letter is next to.
+# This puzzle appears in the Independent newspaper.
+
 # Written by Joe Bloggs [2017-09-06 Wed]
 
 option solver gecode;

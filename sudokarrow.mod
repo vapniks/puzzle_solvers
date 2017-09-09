@@ -3,6 +3,12 @@
 # AMPL MODEL TO SOLVE SUDOKARROW
 # ----------------------------------------
 
+# This puzzle is a variant of sudoku in which the grid also contains arrows which span cells
+# and have a circle at one end. The number in the arrow cell containing the circle must equal the
+# sum of the numbers in all other cells spanned by the arrow. There are fewer given values than
+# in a normal sudoku puzzle, but the arrows give extra information to make up for this.
+# This puzzle appears in the Independent newspaper.
+
 # Written by Joe Bloggs [2017-09-06 Wed]
 
 # Use gecode solver so we can use constraint programming extensions (alldiff)

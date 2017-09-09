@@ -3,6 +3,11 @@
 # AMPL MODEL TO SOLVE KILLER SUDOKO 
 # ----------------------------------------
 
+# This puzzle is a variant of sudoku where in addition to the normal rules (rows, columns and 3x3 squares
+# must each contain 1..9), you must also ensure that the sum of cells within each dotted region is equal
+# to the number displayed in the corner of that region.
+# This puzzle appears in the Independent newspaper.
+
 # Written by Joe Bloggs [2017-09-06 Wed]
 
 # Use gecode solver so we can use constraint programming extensions (alldiff)
